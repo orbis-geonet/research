@@ -4,6 +4,10 @@ This repository documents the research and prototyping behind Orbis's **territor
 
 Everything below is the research itself, laid out in order, so you can read the full method — with diagrams, explanations, and code — without opening a single folder. Each example is also runnable: open its `index.html` with a live server and drag the circles around.
 
+> **Play with the research live: [orbis.social/r/research](https://orbis.social/r/research/)** — the full v2 simulation in your browser: place claims for four tribes, run automatic check-ins, and watch territories fuse, collide, and decay.
+
+<a href="https://orbis.social/r/research/"><img src="./simulation-v2/live-simulation.png" alt="The v2 simulation running — four tribes fusing claims into amorphous territories" width="100%" /></a>
+
 ## The goal
 
 Orbis started by drawing each place as an individual circle. The goal of this research was to evolve that into **connected, organic territory shapes**: when places of the same tribe are close enough, they merge into one continuous polygon.
@@ -234,7 +238,7 @@ Reference for the core geometry functions (`simulation-v2/documentation`).
 
 ## Running an example
 
-Each example folder is self-contained. Open its `index.html` with any live server (e.g. VS Code's *Live Server*) and drag the circles/places around to see the tripwires, connections, and polygons update in real time.
+Each example folder is self-contained. Open its `index.html` with any live server (e.g. VS Code's *Live Server*) and drag the circles/places around to see the tripwires, connections, and polygons update in real time. The consolidated v2 simulation is also hosted at [orbis.social/r/research](https://orbis.social/r/research/) — no setup needed.
 
 ## License
 
