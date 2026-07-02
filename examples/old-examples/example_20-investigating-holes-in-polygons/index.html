@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Concave Polygon</title>
+  <style>
+    canvas {
+      display: block; /* Make canvas a block element */
+      border: 1px solid black;
+    }
+    .button-container {
+      margin-top: 10px; /* Add some space between canvas and buttons */
+    }
+    .button-container button {
+      margin: 5px; /* Add space between buttons */
+    }
+  </style>
+</head>
+<body>
+  <canvas id="myCanvas" width="500" height="500"></canvas>
+  <div class="button-container">
+    <button onclick="drawCircle()">Draw Circle</button>
+    <button onclick="drawConcavePolygon()">Draw Polygons</button>
+    <button onclick="clearCanvas()">Clear Canvas</button>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+</html>

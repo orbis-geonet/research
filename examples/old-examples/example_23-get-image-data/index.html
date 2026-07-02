@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canvas Image Upload</title>
+<style>
+    canvas {
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="500"></canvas><br>
+    <button id="repositionButton">Reposition Point</button>
+    <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+    <input type="number" id="radiusInput" value="30"> Radius<br>
+    <button id="imageUploadButton">Upload Image</button>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>

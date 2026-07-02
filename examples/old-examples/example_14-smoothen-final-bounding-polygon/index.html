@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Canvas Circles and External Tangents</title>
+  </head>
+  <body>
+    <!-- Slider to select amount of iterations for smoothing function -->
+    <div style="visibility: hidden;">
+      <label for="iterations">Iterations:</label>
+      <input style="width: 400px;" type="range" id="iterations" name="iterations" min="1" max="5" value="2">
+      <span id="iterations-value">2</span>
+    </div>
+
+    <canvas id="myCanvas" width="500" height="500" style="border: 1px solid #000000" ></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/polygon-clipping@0.15.7/dist/polygon-clipping.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
