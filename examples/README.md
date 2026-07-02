@@ -13,7 +13,7 @@ The following examples help to understand the process of getting from the curren
 - Example 1: [Tripwires Between Two Circles](./1_Fundamentals-of-Tripwires/Example_1-Tripwires-Between-Two-Circles/README.md)
 - Example 2: [Tripwires Break When Distance is too Large](./1_Fundamentals-of-Tripwires/Example_2-Tripwires-Break-When-Distance-is-too-Large/README.md)
 - Example 3: [Tripwires Between Multiple Places](./1_Fundamentals-of-Tripwires/Example_3-Tripwires-Between-Multiple-Places/README.md)
-- Example 4: [Tripwires With Different Groups](./1_Fundamentals-of-Tripwires/Example_4-Tripwires-with-Different-Groups/README.md)
+- Example 4: [Tripwires With Different Groups](./1_Fundamentals-of-Tripwires/Example_4-Tripwires-With-Different-Groups/README.md)
 - Example 5: [Tripwires Detect Collision With Different Group](./1_Fundamentals-of-Tripwires/Example_5-Tripwires-Detect-Collision-With-Different-Group/README.md)
 - Example 6: [Two Cut Tripwires Cut the Connection](./1_Fundamentals-of-Tripwires/Example_6-Two-Cut-Tripwires-Cut-the-Connection/README.md)
 - Example 7: [Simulation With Lots of Places](./1_Fundamentals-of-Tripwires/Example_7-Simulation-With-Lots-of-Places/README.md)

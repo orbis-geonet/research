@@ -176,6 +176,17 @@ The full result. In `polygon.js`'s `update`: (1) group connected places, (2) uni
 
 ![Amorphous shapes](./examples/2_Building-the-Polygons/Example_3-Amorphous-Shapes-With-Many-Places/imgs/amorphous-shapes.png)
 
+### 2.4 · Calculate the center properly, and account for holes
+
+The final step: give every merged territory a single center point for its map label. A plain **centroid** fails on concave or ring-shaped territories — it can land in a notch or a hole — so we compute the **pole of inaccessibility** with `polylabel`: a grid + priority-queue search for the point deepest inside the polygon (`precision` trades accuracy for speed). When a territory has a hole that contains places, that hole is excluded from the search, so the center never lands in a gap. See [Example 4](./examples/2_Building-the-Polygons/Example_4-Calculate-Center-Properly-And-Account-For-Holes/README.md).
+
+<p float="left">
+  <img src="./examples/2_Building-the-Polygons/Example_4-Calculate-Center-Properly-And-Account-For-Holes/imgs/territory-centers.png" alt="Territory centers for two groups" width="49%" />
+  <img src="./examples/2_Building-the-Polygons/Example_4-Calculate-Center-Properly-And-Account-For-Holes/imgs/amorphous-centers.png" alt="Centers on amorphous concave territories" width="49%" />
+</p>
+
+*Each connected territory gets one center point (black dot), placed deep inside the shape — even for concave territories where a centroid would fall in the gap.*
+
 ---
 
 ## Function Documentation
